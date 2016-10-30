@@ -1,16 +1,20 @@
 require './jakeg.rb'
 
-message = JakeG.get_message
+# This should get a message but idk how lol
+message = 'ayy lmao ayy'
 
 total_humor = message.gauge_humor
 
-case total_humor
-when <= 100
+if total_humor <= 100
   puts 'lmao'
-when <= 250
+elsif total_humor <= 200
   puts 'lmao'
-when <= 400
-  puts 'Lmao'
-when <= '700'
+elsif total_humor <= 300
+  puts 'lmao'
+elsif total_humor <= 400
+  puts 'lmao'
+elsif total_humor <= 500
+  puts 'LMAO'
+elsif total_humor > 500
   puts 'LMAO'
 end

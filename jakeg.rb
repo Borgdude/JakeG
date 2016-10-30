@@ -1,10 +1,4 @@
-class JakeG < String
-
-  def get_message
-    # Some shit here idk
-    # return message
-    return 'ayy lmao'
-  end
+class String
 
   def gauge_humor
     total_humor = 0
