@@ -1,6 +1,5 @@
 require './jakeg.rb'
 
-# This should get a message but idk how lol
 puts "What would you like to send to Jake?"
 print "Keep it dank: "
 message = gets.chomp
