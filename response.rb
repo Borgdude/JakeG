@@ -1,20 +1,12 @@
 require './jakeg.rb'
 
 # This should get a message but idk how lol
-message = 'ayy lmao ayy'
+puts "What would you like to send to Jake?"
+print "Keep it dank: "
+message = gets.chomp
 
 total_humor = message.gauge_humor
 
-if total_humor <= 100
-  puts 'lmao'
-elsif total_humor <= 200
-  puts 'lmao'
-elsif total_humor <= 300
-  puts 'lmao'
-elsif total_humor <= 400
-  puts 'lmao'
-elsif total_humor <= 500
-  puts 'LMAO'
-elsif total_humor > 500
-  puts 'LMAO'
-end
+response = total_humor.respond_appropriately
+
+puts "Jake says: #{response}"
