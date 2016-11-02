@@ -7,10 +7,15 @@ class String
       'ayy' => 150,
       'lmao' => 100,
       'jews' => 400,
-      'catholics' => 0,
+      'catholics' => -100,
       'r/' => 200,
       'rip' => 150,
-      'ripperoni' => 180
+      'ripperoni' => 180,
+      'suicide' => 200,
+      'depression' => 200,
+      'apple' => 400,
+      'ayymd' => 500,
+      'novideo' => 200
     }
 
     words.each do |word, humor|
@@ -35,8 +40,12 @@ class Fixnum
       return 'lmao'
     elsif self <= 500
       return 'LMAO'
-    elsif self > 500
-      return 'LMAO'
+    elsif self <= 600
+      return 'LMAOOO'
+    elsif self <= 700
+      return 'LMAOO000'
+    elsif self > 800
+      return 'LMAOOOOOOOOOOOOOOOOOOO'
     end
   end
 end
