@@ -15,7 +15,8 @@ class String
       'depression' => 200,
       'apple' => 400,
       'ayymd' => 500,
-      'novideo' => 200
+      'novideo' => 200,
+      'mormons' => 1000
     }
 
     words.each do |word, humor|
